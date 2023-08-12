@@ -1,0 +1,21 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "lib"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "include", [
+            "library/**/*.jar",
+            "/home/username/lib/foo.jar"
+        ],
+        "exclude", [
+            "library/sources/**"
+        ],
+        "sources", {
+            "library/bar.jar": "library/sources/bar-src.jar"
+        },
+        "E:/Coding/Languages/Java/BankManagemantBankManagemantSystem/lib/mysql-connector-java-8.0.28.jar" ,
+        // "lib/mysql-connector-java-8.0.28.jar"
+    ]
+}
